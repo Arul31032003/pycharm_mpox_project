@@ -1,0 +1,1 @@
+# pycharm_mpox_project
