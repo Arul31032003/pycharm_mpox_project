@@ -1,0 +1,599 @@
+{
+  "intents": [
+    {
+      "tag": "what is monkeypox",
+      "patterns": ["What is Monkeypox","monkeypox","mpox", "Tell me about Monkeypox", "What is Monkeypox virus", "Describe Monkeypox", "What kind of disease is Monkeypox"],
+      "responses": ["Monkeypox is a rare viral disease caused by the monkeypox virus, similar to smallpox but typically less severe. It causes flu-like symptoms and a rash."],
+      "single_word_patterns": ["monkeypox"]
+    },
+
+    {
+      "tag": "monkeypox symptoms",
+      "patterns": ["What are the symptoms of Monkeypox", "How do I know if I have Monkeypox", "Signs of Monkeypox", "Monkeypox infection symptoms"],
+      "responses": ["Monkeypox symptoms include fever, headache, muscle aches, swollen lymph nodes, chills, exhaustion, and a rash that develops into fluid-filled blisters."],
+      "single_word_patterns": ["symptoms"]
+    },
+    {
+      "tag": "monkeypox transmission",
+      "patterns": ["How is Monkeypox transmitted", "How does Monkeypox spread", "Monkeypox transmission methods", "How do people catch Monkeypox"],
+      "responses": ["Monkeypox spreads through close contact with an infected person or animal, or materials like bedding that have been contaminated. It can also spread through respiratory droplets during prolonged face-to-face contact."],
+      "single_word_patterns": ["transmission"]
+    },
+    {
+      "tag": "monkeypox prevention",
+      "patterns": ["How to prevent Monkeypox", "Ways to prevent Monkeypox", "Monkeypox prevention tips", "How to avoid Monkeypox"],
+      "responses": ["To prevent Monkeypox, avoid close contact with infected individuals, practice good hygiene, wear a mask in areas with outbreaks, and avoid contact with animals that might carry the virus."],
+      "single_word_patterns": ["prevention"]
+    },
+    {
+      "tag": "monkeypox treatment",
+      "patterns": ["How is Monkeypox treated", "What is the treatment for Monkeypox", "How to cure Monkeypox", "Monkeypox remedies", "Monkeypox treatment methods"],
+      "responses": ["There is no specific treatment for Monkeypox, but antiviral medications like Tecovirimat can be used for severe cases. Supportive care such as rest, fluids, and pain relief is typically recommended."],
+      "single_word_patterns": ["treatment"]
+    },
+    {
+      "tag": "monkeypox rash",
+      "patterns": ["What does the Monkeypox rash look like", "Describe the Monkeypox rash", "How does the rash from Monkeypox appear", "Monkeypox rash symptoms"],
+      "responses": ["The Monkeypox rash starts as flat red spots that turn into raised bumps, then become fluid-filled blisters. These blisters eventually scab over and fall off after a few weeks."],
+      "single_word_patterns": ["rash"]
+    },
+    {
+      "tag": "monkeypox incubation period",
+      "patterns": ["What is the incubation period for Monkeypox", "How long does it take for Monkeypox symptoms to appear", "Monkeypox incubation time"],
+      "responses": ["The incubation period for Monkeypox is usually 7 to 14 days, but it can range from 5 to 21 days. This is the time between exposure to the virus and the appearance of symptoms."],
+      "single_word_patterns": ["incubation"]
+    },
+    {
+      "tag": "monkeypox complications",
+      "patterns": ["What are the complications of Monkeypox", "Can Monkeypox be serious", "Monkeypox complications", "How dangerous is Monkeypox"],
+      "responses": ["While most cases of Monkeypox are mild, complications can occur, especially in people with weakened immune systems. These include secondary infections, bronchopneumonia, sepsis, and eye infections that can lead to vision loss."],
+      "single_word_patterns": ["complications"]
+    },
+    {
+      "tag": "monkeypox vaccine",
+      "patterns": ["Is there a vaccine for Monkeypox", "Can Monkeypox be prevented with a vaccine", "Monkeypox vaccination", "Monkeypox immunization"],
+      "responses": ["Yes, the smallpox vaccine has been shown to provide protection against Monkeypox. In some countries, vaccines like JYNNEOS are used for people at high risk of Monkeypox exposure."],
+      "single_word_patterns": ["vaccine"]
+    },
+    {
+      "tag": "monkeypox high risk groups",
+      "patterns": ["Who is at risk for Monkeypox", "Who is more likely to get Monkeypox", "Monkeypox high-risk groups", "Who can get Monkeypox"],
+      "responses": ["People living in or traveling to areas where Monkeypox is common, those in close contact with infected individuals or animals, and healthcare workers are at higher risk. Individuals with weakened immune systems are also more vulnerable to severe cases."],
+      "single_word_patterns": ["risk"]
+    },
+    {
+      "tag": "monkeypox testing",
+      "patterns": ["How is Monkeypox diagnosed", "Is there a test for Monkeypox", "Monkeypox testing procedures", "How do doctors test for Monkeypox"],
+      "responses": ["Monkeypox is diagnosed through a clinical examination of the rash, and laboratory testing can confirm the diagnosis. Samples from skin lesions or fluid from blisters are used for PCR testing."],
+      "single_word_patterns": ["testing"]
+    },
+    {
+      "tag": "monkeypox in animals",
+      "patterns": ["Can animals get Monkeypox", "Is Monkeypox found in animals", "How do animals get Monkeypox", "Monkeypox in animals"],
+      "responses": ["Yes, Monkeypox can infect animals such as rodents and primates. It is thought to spread to humans through contact with the bodily fluids of infected animals or bites from infected animals."],
+      "single_word_patterns": ["animals"]
+    },
+    {
+      "tag": "monkeypox versus smallpox",
+      "patterns": ["What is the difference between Monkeypox and Smallpox", "Monkeypox vs Smallpox", "How is Monkeypox different from Smallpox", "Are Monkeypox and Smallpox the same"],
+      "responses": ["Monkeypox and Smallpox are caused by similar viruses, but Monkeypox is usually less severe. Smallpox has been eradicated, while Monkeypox still occurs in parts of Africa. Monkeypox also causes swollen lymph nodes, which is not a symptom of Smallpox."],
+      "single_word_patterns": ["smallpox"]
+    },
+    {
+      "tag": "monkeypox versus chickenpox",
+      "patterns": ["How is Monkeypox different from Chickenpox", "Monkeypox vs Chickenpox", "Is Monkeypox the same as Chickenpox", "Differences between Monkeypox and Chickenpox"],
+      "responses": ["Monkeypox and Chickenpox both cause rashes, but they are caused by different viruses. Monkeypox typically has more severe symptoms like swollen lymph nodes, and its rash develops into fluid-filled blisters that become pustules, whereas Chickenpox lesions are more superficial and heal faster."],
+      "single_word_patterns": ["chickenpox"]
+    },
+    {
+      "tag": "monkeypox outbreaks",
+      "patterns": ["Where have there been Monkeypox outbreaks", "Recent Monkeypox outbreaks", "Monkeypox outbreak locations", "Where does Monkeypox occur"],
+      "responses": ["Monkeypox outbreaks have occurred primarily in Central and West Africa. However, cases have been reported in non-endemic regions due to international travel or contact with infected individuals or animals."],
+      "single_word_patterns": ["outbreaks"]
+    },
+    {
+      "tag": "monkeypox severity",
+      "patterns": ["How severe is Monkeypox", "Is Monkeypox deadly", "Can Monkeypox be fatal", "Monkeypox severity"],
+      "responses": ["Monkeypox is usually mild and self-limiting, but severe cases can occur, especially in immunocompromised individuals. The fatality rate ranges from 1% to 10% depending on the strain and health of the infected individual."],
+      "single_word_patterns": ["severity"]
+    },
+    {
+      "tag": "monkeypox quarantine",
+      "patterns": ["Do I need to quarantine if I have Monkeypox", "Monkeypox quarantine guidelines", "How long to quarantine for Monkeypox", "Isolate for Monkeypox"],
+      "responses": ["Yes, isolation is recommended for individuals infected with Monkeypox to prevent the spread of the virus. The isolation period typically lasts until all scabs from the rash have fallen off and new skin has formed, which can take up to 3 to 4 weeks."],
+      "single_word_patterns": ["quarantine"]
+    },
+    {
+      "tag": "monkeypox resurgence",
+      "patterns": ["Is Monkeypox making a comeback", "Why are there new cases of Monkeypox", "Monkeypox resurgence", "Why is Monkeypox re-emerging"],
+      "responses": ["Monkeypox has resurfaced in various countries due to factors like decreased smallpox vaccination, increased human-animal interactions, and global travel. The virus is now being identified in regions outside of Africa."],
+      "single_word_patterns": ["resurgence"]
+    },
+    {
+      "tag": "monkeypox children",
+      "patterns": ["Can children get Monkeypox", "Monkeypox in kids", "Is Monkeypox dangerous for children", "Are children at risk of Monkeypox"],
+      "responses": ["Yes, children can get Monkeypox. They may be at higher risk of severe disease, especially infants. It's important to monitor children for symptoms if they have been exposed to the virus."],
+      "single_word_patterns": ["children"]
+    },
+    {
+      "tag": "monkeypox history",
+      "patterns": ["What is the history of Monkeypox", "When was Monkeypox first discovered", "Monkeypox history timeline", "Origins of Monkeypox"],
+      "responses": ["Monkeypox was first identified in laboratory monkeys in 1958. The first human case was reported in 1970 in the Democratic Republic of the Congo. Since then, outbreaks have been reported primarily in Central and West Africa."],
+      "single_word_patterns": ["history"]
+    },
+    {
+      "tag": "monkeypox statistics",
+      "patterns": ["What are the latest Monkeypox statistics", "Monkeypox case numbers", "Current Monkeypox statistics", "How many cases of Monkeypox are there"],
+      "responses": ["As of the latest reports, the number of confirmed Monkeypox cases varies by region, with significant outbreaks observed in non-endemic countries in 2022 and 2023. For the most accurate and current statistics, refer to health organizations like the CDC or WHO."],
+      "single_word_patterns": ["statistics"]
+    },
+    {
+      "tag": "monkeypox treatment options",
+      "patterns": ["What treatments are available for Monkeypox", "Monkeypox treatment options", "Are there medications for Monkeypox", "How is Monkeypox managed"],
+      "responses": ["Treatment for Monkeypox primarily focuses on supportive care. Antiviral medications like Tecovirimat may be used in severe cases. Symptomatic treatment for fever and pain relief is also recommended."],
+      "single_word_patterns": ["treatment"]
+    },
+    {
+      "tag": "monkeypox animal carriers",
+      "patterns": ["What animals carry Monkeypox", "Which animals are reservoirs for Monkeypox", "Monkeypox animal reservoirs", "How does Monkeypox spread from animals"],
+      "responses": ["Rodents, including squirrels, dormice, and rats, are considered primary reservoirs of the Monkeypox virus. The virus can also infect primates, which can transmit it to humans through direct contact."],
+      "single_word_patterns": ["carriers"]
+    },
+    {
+      "tag": "monkeypox community impact",
+      "patterns": ["How does Monkeypox affect communities", "Impact of Monkeypox outbreaks", "Community response to Monkeypox", "Social effects of Monkeypox"],
+      "responses": ["Monkeypox outbreaks can strain healthcare systems and impact social interactions. Public health measures may lead to increased awareness and preventive behaviors, but stigma can also arise around affected individuals."],
+      "single_word_patterns": ["impact"]
+    },
+    {
+      "tag": "monkeypox research",
+      "patterns": ["What research is being done on Monkeypox", "Monkeypox studies", "Current research on Monkeypox", "Scientific studies related to Monkeypox"],
+      "responses": ["Research on Monkeypox is ongoing, focusing on understanding the virus, improving treatments, and developing vaccines. Studies also investigate the virus's transmission dynamics and its potential resurgence."],
+      "single_word_patterns": ["research"]
+    },
+    {
+      "tag": "monkeypox FAQs",
+      "patterns": ["Frequently asked questions about Monkeypox", "Common questions about Monkeypox", "Monkeypox FAQ", "What should I know about Monkeypox"],
+      "responses": ["Common questions include inquiries about symptoms, transmission, prevention, and treatment options for Monkeypox. It's essential to refer to reliable health sources for accurate information."],
+      "single_word_patterns": ["FAQs"]
+    },
+    {
+      "tag": "monkeypox myths",
+      "patterns": ["What are the myths about Monkeypox", "Common misconceptions about Monkeypox", "Monkeypox myths vs facts", "Debunking Monkeypox myths"],
+      "responses": ["There are several myths about Monkeypox, including misconceptions about its transmission and severity. It's crucial to rely on factual information from health organizations to combat misinformation."],
+      "single_word_patterns": ["myths"]
+    },
+    {
+      "tag": "monkeypox virus origin",
+      "patterns": ["Where does the Monkeypox virus come from", "Origin of the Monkeypox virus", "Monkeypox virus source", "How did Monkeypox originate"],
+      "responses": ["The Monkeypox virus is believed to have originated in central and western Africa, with its first discovery in laboratory monkeys. The virus is primarily transmitted among animals but can infect humans."],
+      "single_word_patterns": ["origin"]
+    },
+    {
+      "tag": "monkeypox and HIV",
+      "patterns": ["Can HIV patients get Monkeypox", "Monkeypox risk for HIV", "Is Monkeypox more severe in HIV patients", "HIV and Monkeypox relationship"],
+      "responses": ["Individuals with HIV or other immunocompromising conditions may be at higher risk for severe Monkeypox infection due to their weakened immune systems."],
+      "single_word_patterns": ["HIV"]
+    },
+    {
+      "tag": "monkeypox public health response",
+      "patterns": ["What is the public health response to Monkeypox", "How are authorities handling Monkeypox outbreaks", "Public health measures for Monkeypox", "Government response to Monkeypox"],
+      "responses": ["Public health authorities implement measures such as contact tracing, vaccination of high-risk populations, and public awareness campaigns to control Monkeypox outbreaks."],
+      "single_word_patterns": ["response"]
+    },
+    {
+      "tag": "monkeypox quarantine duration",
+      "patterns": ["How long is the quarantine for Monkeypox", "Monkeypox quarantine period", "Duration of Monkeypox isolation", "Quarantine guidelines for Monkeypox"],
+      "responses": ["The quarantine duration for Monkeypox is generally recommended to be 21 days, which covers the entire incubation period and monitoring for symptoms."],
+      "single_word_patterns": ["duration"]
+    },
+    {
+      "tag": "monkeypox genetic variants",
+      "patterns": ["Are there different strains of Monkeypox", "Monkeypox genetic variants", "Variability of Monkeypox virus", "What are the strains of Monkeypox"],
+      "responses": ["There are two clades of the Monkeypox virus: the Central African clade, which is more severe, and the West African clade, which is typically less severe."],
+      "single_word_patterns": ["variants"]
+    },
+    {
+      "tag": "monkeypox immunity",
+      "patterns": ["Does having Monkeypox give immunity", "Can you get Monkeypox more than once", "Immunity after Monkeypox infection", "Monkeypox reinfection risk"],
+      "responses": ["Recovering from Monkeypox may provide some immunity, but it is unclear how long this immunity lasts or if reinfection is possible."],
+      "single_word_patterns": ["immunity"]
+    },
+    {
+      "tag": "monkeypox statistics by country",
+      "patterns": ["Monkeypox cases by country", "Current Monkeypox statistics in different countries", "Country-specific Monkeypox data", "Global Monkeypox statistics"],
+      "responses": ["The number of Monkeypox cases varies by country and region. For the latest statistics, refer to the WHO or CDC websites."],
+      "single_word_patterns": ["statistics"]
+    },
+    {
+      "tag": "monkeypox in the news",
+      "patterns": ["Recent news about Monkeypox", "Monkeypox current events", "Latest Monkeypox headlines", "Monkeypox news updates"],
+      "responses": ["Monkeypox has been in the news due to recent outbreaks and vaccination efforts in various countries. Stay updated through reliable news sources."],
+      "single_word_patterns": ["news"]
+    },
+    {
+      "tag": "monkeypox travel advice",
+      "patterns": ["Travel advice for Monkeypox", "Should I avoid travel due to Monkeypox", "Monkeypox travel precautions", "What to know about Monkeypox when traveling"],
+      "responses": ["Travelers should be cautious and avoid areas with reported Monkeypox cases. It's advisable to stay informed about health advisories from local health authorities."],
+      "single_word_patterns": ["travel"]
+    },
+    {
+      "tag": "monkeypox community resources",
+      "patterns": ["Resources for Monkeypox information", "Community help for Monkeypox", "Where to get help for Monkeypox", "Monkeypox support resources"],
+      "responses": ["Community resources include health department websites, local clinics, and hotlines where individuals can seek information and support regarding Monkeypox."],
+      "single_word_patterns": ["resources"]
+    },
+    {
+      "tag": "monkeypox media coverage",
+      "patterns": ["How is Monkeypox covered in the media", "Media portrayal of Monkeypox", "Monkeypox in popular media", "Public perception of Monkeypox"],
+      "responses": ["Media coverage of Monkeypox varies, with some emphasizing the severity of outbreaks while others focus on prevention and education efforts."],
+      "single_word_patterns": ["media"]
+    },
+    {
+      "tag": "monkeypox vaccine efficacy",
+      "patterns": ["How effective is the Monkeypox vaccine", "Monkeypox vaccine success rate", "Does the vaccine work for Monkeypox", "Vaccine efficacy against Monkeypox"],
+      "responses": ["The Monkeypox vaccine, particularly the JYNNEOS vaccine, has shown effectiveness in preventing the disease, especially when administered before or shortly after exposure."],
+      "single_word_patterns": ["efficacy"]
+    },
+    {
+      "tag": "monkeypox family impact",
+      "patterns": ["How does Monkeypox affect families", "Impact of Monkeypox on family life", "Family response to Monkeypox infection", "Supporting family members with Monkeypox"],
+      "responses": ["Monkeypox can significantly affect families, especially if a member is infected. Families may need to adjust routines and provide support during isolation."],
+      "single_word_patterns": ["family"]
+    },
+    {
+      "tag": "monkeypox vaccination side effects",
+      "patterns": ["What are the side effects of Monkeypox vaccine", "Monkeypox vaccine reactions", "Is the Monkeypox vaccine safe", "Possible side effects of Monkeypox vaccination"],
+      "responses": ["Side effects of the Monkeypox vaccine can include pain at the injection site, fever, and flu-like symptoms. Serious side effects are rare."],
+      "single_word_patterns": ["side effects"]
+    },
+    {
+      "tag": "monkeypox public awareness",
+      "patterns": ["How to raise awareness about Monkeypox", "Public awareness initiatives for Monkeypox", "Educating communities about Monkeypox", "Monkeypox awareness campaigns"],
+      "responses": ["Raising public awareness about Monkeypox can involve community outreach, educational campaigns, and information dissemination through various media."],
+      "single_word_patterns": ["awareness"]
+    },
+    {
+      "tag": "monkeypox long-term effects",
+      "patterns": ["What are the long-term effects of Monkeypox", "Can Monkeypox cause lasting health issues", "Long-term impact of Monkeypox infection", "After effects of Monkeypox"],
+      "responses": ["While most people recover fully from Monkeypox, some may experience scarring from the rash or other complications depending on their health status."],
+      "single_word_patterns": ["long-term"]
+    },
+    {
+      "tag": "monkeypox and stigma",
+      "patterns": ["Is there stigma associated with Monkeypox", "How does Monkeypox create stigma", "Monkeypox and social stigma", "Dealing with stigma related to Monkeypox"],
+      "responses": ["Stigma can arise from misconceptions about Monkeypox, particularly regarding its transmission and affected populations. Education and open conversations can help combat stigma."],
+      "single_word_patterns": ["stigma"]
+    },
+    {
+      "tag": "monkeypox virus transmission",
+      "patterns": ["How is Monkeypox transmitted", "Modes of transmission for Monkeypox", "Transmission routes for Monkeypox", "Can Monkeypox spread between humans"],
+      "responses": ["Monkeypox is primarily transmitted through direct contact with infected animals, bodily fluids, or sores, and it can also spread between humans through respiratory droplets and contact with contaminated materials."],
+      "single_word_patterns": ["transmission"]
+    },
+    {
+      "tag": "monkeypox symptoms",
+      "patterns": ["What are the symptoms of Monkeypox", "Signs of Monkeypox infection", "How to recognize Monkeypox", "Symptoms to watch for Monkeypox"],
+      "responses": ["Symptoms of Monkeypox include fever, headache, muscle aches, swollen lymph nodes, and a rash that develops into pustules."],
+      "single_word_patterns": ["symptoms"]
+    },
+    {
+      "tag": "monkeypox treatment",
+      "patterns": ["What is the treatment for Monkeypox", "How is Monkeypox managed", "Monkeypox treatment options", "Can Monkeypox be treated"],
+      "responses": ["There is no specific treatment for Monkeypox; however, antiviral medications and supportive care can help alleviate symptoms."],
+      "single_word_patterns": ["treatment"]
+    },
+    {
+      "tag": "monkeypox risk factors",
+      "patterns": ["What are the risk factors for Monkeypox", "Who is at risk for Monkeypox", "Risk assessment for Monkeypox", "High-risk groups for Monkeypox"],
+      "responses": ["Risk factors for Monkeypox include close contact with infected individuals, travel to endemic regions, and handling animals that may carry the virus."],
+      "single_word_patterns": ["risk"]
+    },
+    {
+      "tag": "monkeypox in pets",
+      "patterns": ["Can pets get Monkeypox", "Monkeypox transmission to pets", "Should I worry about Monkeypox and my pets", "Impact of Monkeypox on animals"],
+      "responses": ["While Monkeypox primarily affects humans and certain wild animals, there is potential for transmission to pets if they are exposed to infected individuals."],
+      "single_word_patterns": ["pets"]
+    },
+    {
+      "tag": "monkeypox and public gatherings",
+      "patterns": ["Is it safe to attend public gatherings during Monkeypox", "Monkeypox safety at events", "Public events and Monkeypox risk", "Precautions for gatherings during Monkeypox"],
+      "responses": ["During Monkeypox outbreaks, it may be advisable to limit attendance at large gatherings and to take precautions such as wearing masks and practicing good hygiene."],
+      "single_word_patterns": ["gatherings"]
+    },
+    {
+      "tag": "monkeypox healthcare provider guidance",
+      "patterns": ["What should healthcare providers know about Monkeypox", "Guidance for healthcare providers on Monkeypox", "Monkeypox protocols for doctors", "Best practices for treating Monkeypox"],
+      "responses": ["Healthcare providers should be aware of Monkeypox symptoms, potential exposure risks, and the importance of reporting cases to public health authorities."],
+      "single_word_patterns": ["guidance"]
+    },
+    {
+      "tag": "monkeypox misinformation",
+      "patterns": ["How to combat misinformation about Monkeypox", "Common myths about Monkeypox", "Misinformation and public perception of Monkeypox", "Correcting false information on Monkeypox"],
+      "responses": ["Misinformation about Monkeypox can be addressed through education and providing accurate information from reliable sources to the public."],
+      "single_word_patterns": ["misinformation"]
+    },
+    {
+      "tag": "monkeypox vaccine availability",
+      "patterns": ["Where can I get the Monkeypox vaccine", "Availability of Monkeypox vaccination", "How to access Monkeypox vaccine", "Monkeypox vaccine distribution"],
+      "responses": ["Monkeypox vaccines are available at public health clinics and designated vaccination sites. Check local health department resources for details."],
+      "single_word_patterns": ["availability"]
+    },
+    {
+      "tag": "monkeypox long-term care",
+      "patterns": ["What is long-term care for Monkeypox survivors", "Post-recovery care for Monkeypox", "Long-term support for Monkeypox patients", "Managing after Monkeypox infection"],
+      "responses": ["Long-term care for Monkeypox survivors may include monitoring for complications, managing scars from the rash, and providing mental health support."],
+      "single_word_patterns": ["care"]
+    },
+    {
+      "tag": "monkeypox international response",
+      "patterns": ["How are countries responding to Monkeypox", "International response to Monkeypox outbreaks", "Global strategies for Monkeypox", "Monkeypox coordination between nations"],
+      "responses": ["Countries are coordinating their responses to Monkeypox through international health organizations to ensure information sharing, resource allocation, and vaccination efforts."],
+      "single_word_patterns": ["international"]
+    },
+    {
+      "tag": "monkeypox cultural impact",
+      "patterns": ["How does Monkeypox affect cultural practices", "Cultural responses to Monkeypox", "Impact of Monkeypox on traditions", "Monkeypox and cultural events"],
+      "responses": ["Monkeypox can disrupt cultural practices and traditions, particularly in communities where gatherings and ceremonies are important."],
+      "single_word_patterns": ["cultural"]
+    },
+    {
+      "tag": "monkeypox historical outbreaks",
+      "patterns": ["What are historical outbreaks of Monkeypox", "History of Monkeypox cases", "Past incidents of Monkeypox", "Monkeypox outbreaks timeline"],
+      "responses": ["Historical outbreaks of Monkeypox have been documented, with the first known human cases occurring in 1970 in the Democratic Republic of the Congo."],
+      "single_word_patterns": ["historical"]
+    },
+    {
+      "tag": "monkeypox impact on mental health",
+      "patterns": ["How does Monkeypox affect mental health", "Mental health considerations during Monkeypox outbreaks", "Coping with stress from Monkeypox", "Support for mental health related to Monkeypox"],
+      "responses": ["The stress of a Monkeypox outbreak can affect mental health, leading to anxiety, fear, and social stigma. Mental health resources can help individuals cope."],
+      "single_word_patterns": ["mental health"]
+    },
+    {
+      "tag": "monkeypox community engagement",
+      "patterns": ["How can communities engage on Monkeypox", "Community initiatives for Monkeypox awareness", "Getting involved in Monkeypox education", "Volunteer opportunities for Monkeypox outreach"],
+      "responses": ["Communities can engage in Monkeypox awareness by organizing educational events, distributing informational materials, and collaborating with local health organizations."],
+      "single_word_patterns": ["engagement"]
+    },
+    {
+      "tag": "monkeypox treatment costs",
+      "patterns": ["What are the costs associated with Monkeypox treatment", "Is Monkeypox treatment expensive", "Cost of healthcare for Monkeypox", "Financial assistance for Monkeypox treatment"],
+      "responses": ["The costs of Monkeypox treatment can vary widely based on healthcare access and insurance coverage. Assistance programs may be available to help with expenses."],
+      "single_word_patterns": ["costs"]
+    },
+    {
+      "tag": "monkeypox infection prevention",
+      "patterns": ["How to prevent Monkeypox infection", "Preventive measures for Monkeypox", "Monkeypox safety tips", "Reducing the risk of Monkeypox"],
+      "responses": ["Preventive measures against Monkeypox include avoiding contact with infected individuals, practicing good hygiene, and wearing protective clothing if necessary."],
+      "single_word_patterns": ["prevention"]
+    },
+
+    {
+      "tag": "monkeypox symptoms",
+      "patterns": ["What are the symptoms of Monkeypox", "How do I know if I have Monkeypox", "Signs of Monkeypox", "Monkeypox infection symptoms"],
+      "responses": ["Monkeypox symptoms include fever, headache, muscle aches, swollen lymph nodes, chills, exhaustion, and a rash that develops into fluid-filled blisters."]
+    },
+    {
+      "tag": "monkeypox transmission",
+      "patterns": ["How is Monkeypox transmitted", "How does Monkeypox spread", "Monkeypox transmission methods", "How do people catch Monkeypox"],
+      "responses": ["Monkeypox spreads through close contact with an infected person or animal, or materials like bedding that have been contaminated. It can also spread through respiratory droplets during prolonged face-to-face contact."]
+    },
+    {
+      "tag": "monkeypox prevention",
+      "patterns": ["How to prevent Monkeypox", "Ways to prevent Monkeypox", "Monkeypox prevention tips", "How to avoid Monkeypox"],
+      "responses": ["To prevent Monkeypox, avoid close contact with infected individuals, practice good hygiene, wear a mask in areas with outbreaks, and avoid contact with animals that might carry the virus."]
+    },
+    {
+      "tag": "monkeypox treatment",
+      "patterns": ["How is Monkeypox treated", "What is the treatment for Monkeypox", "How to cure Monkeypox", "Monkeypox remedies", "Monkeypox treatment methods"],
+      "responses": ["There is no specific treatment for Monkeypox, but antiviral medications like Tecovirimat can be used for severe cases. Supportive care such as rest, fluids, and pain relief is typically recommended."]
+    },
+    {
+      "tag": "monkeypox rash",
+      "patterns": ["What does the Monkeypox rash look like", "Describe the Monkeypox rash", "How does the rash from Monkeypox appear", "Monkeypox rash symptoms"],
+      "responses": ["The Monkeypox rash starts as flat red spots that turn into raised bumps, then become fluid-filled blisters. These blisters eventually scab over and fall off after a few weeks."]
+    },
+    {
+      "tag": "monkeypox incubation period",
+      "patterns": ["What is the incubation period for Monkeypox", "How long does it take for Monkeypox symptoms to appear", "Monkeypox incubation time"],
+      "responses": ["The incubation period for Monkeypox is usually 7 to 14 days, but it can range from 5 to 21 days. This is the time between exposure to the virus and the appearance of symptoms."]
+    },
+    {
+      "tag": "monkeypox complications",
+      "patterns": ["What are the complications of Monkeypox", "Can Monkeypox be serious", "Monkeypox complications", "How dangerous is Monkeypox"],
+      "responses": ["While most cases of Monkeypox are mild, complications can occur, especially in people with weakened immune systems. These include secondary infections, bronchopneumonia, sepsis, and eye infections that can lead to vision loss."]
+    },
+    {
+      "tag": "monkeypox vaccine",
+      "patterns": ["Is there a vaccine for Monkeypox", "Can Monkeypox be prevented with a vaccine", "Monkeypox vaccination", "Monkeypox immunization"],
+      "responses": ["Yes, the smallpox vaccine has been shown to provide protection against Monkeypox. In some countries, vaccines like JYNNEOS are used for people at high risk of Monkeypox exposure."]
+    },
+    {
+      "tag": "monkeypox high risk groups",
+      "patterns": ["Who is at risk for Monkeypox", "Who is more likely to get Monkeypox", "Monkeypox high-risk groups", "Who can get Monkeypox"],
+      "responses": ["People living in or traveling to areas where Monkeypox is common, those in close contact with infected individuals or animals, and healthcare workers are at higher risk. Individuals with weakened immune systems are also more vulnerable to severe cases."]
+    },
+    {
+      "tag": "monkeypox testing",
+      "patterns": ["How is Monkeypox diagnosed", "Is there a test for Monkeypox", "Monkeypox testing procedures", "How do doctors test for Monkeypox"],
+      "responses": ["Monkeypox is diagnosed through a clinical examination of the rash, and laboratory testing can confirm the diagnosis. Samples from skin lesions or fluid from blisters are used for PCR testing."]
+    },
+    {
+      "tag": "monkeypox in animals",
+      "patterns": ["Can animals get Monkeypox", "Is Monkeypox found in animals", "How do animals get Monkeypox", "Monkeypox in animals"],
+      "responses": ["Yes, Monkeypox can infect animals such as rodents and primates. It is thought to spread to humans through contact with the bodily fluids of infected animals or bites from infected animals."]
+    },
+    {
+      "tag": "monkeypox versus smallpox",
+      "patterns": ["What is the difference between Monkeypox and Smallpox", "Monkeypox vs Smallpox", "How is Monkeypox different from Smallpox", "Are Monkeypox and Smallpox the same"],
+      "responses": ["Monkeypox and Smallpox are caused by similar viruses, but Monkeypox is usually less severe. Smallpox has been eradicated, while Monkeypox still occurs in parts of Africa. Monkeypox also causes swollen lymph nodes, which is not a symptom of Smallpox."]
+    },
+    {
+      "tag": "monkeypox versus chickenpox",
+      "patterns": ["How is Monkeypox different from Chickenpox", "Monkeypox vs Chickenpox", "Is Monkeypox the same as Chickenpox", "Differences between Monkeypox and Chickenpox"],
+      "responses": ["Monkeypox and Chickenpox both cause rashes, but they are caused by different viruses. Monkeypox typically has more severe symptoms like swollen lymph nodes, and its rash develops into fluid-filled blisters that become pustules, whereas Chickenpox lesions are more superficial and heal faster."]
+    },
+    {
+      "tag": "monkeypox outbreaks",
+      "patterns": ["Where have there been Monkeypox outbreaks", "Recent Monkeypox outbreaks", "Monkeypox outbreak locations", "Where does Monkeypox occur"],
+      "responses": ["Monkeypox outbreaks have occurred primarily in Central and West Africa. However, cases have been reported in non-endemic regions due to international travel or contact with infected individuals or animals."]
+    },
+    {
+      "tag": "monkeypox severity",
+      "patterns": ["How severe is Monkeypox", "Is Monkeypox deadly", "Can Monkeypox be fatal", "Monkeypox severity"],
+      "responses": ["Monkeypox is usually mild and self-limiting, but severe cases can occur, especially in immunocompromised individuals. The fatality rate ranges from 1% to 10% depending on the strain and health of the infected individual."]
+    },
+    {
+      "tag": "monkeypox quarantine",
+      "patterns": ["Do I need to quarantine if I have Monkeypox", "Monkeypox quarantine guidelines", "How long to quarantine for Monkeypox", "Isolate for Monkeypox"],
+      "responses": ["Yes, isolation is recommended for individuals infected with Monkeypox to prevent the spread of the virus. The isolation period typically lasts until all scabs from the rash have fallen off and new skin has formed, which can take up to 3 to 4 weeks."]
+    },
+    {
+      "tag": "monkeypox resurgence",
+      "patterns": ["Is Monkeypox making a comeback", "Why are there new cases of Monkeypox", "Monkeypox resurgence", "Why is Monkeypox re-emerging"],
+      "responses": ["Monkeypox has resurfaced in various countries due to factors like decreased smallpox vaccination, increased human-animal interactions, and global travel. The virus is now being identified in regions outside of Africa."]
+    },
+    {
+      "tag": "monkeypox children",
+      "patterns": ["Can children get Monkeypox", "Monkeypox in kids", "Is Monkeypox dangerous for children", "Are children at risk of Monkeypox"],
+      "responses": ["Yes, children can get Monkeypox. They may be at higher risk of severe disease, especially infants. It's important to follow proper hygiene and avoid contact with infected individuals or animals."]
+    },
+    {
+      "tag": "monkeypox travel guidelines",
+      "patterns": ["Can I travel if there is a Monkeypox outbreak", "Monkeypox travel guidelines", "Should I cancel my trip due to Monkeypox", "Travel during Monkeypox outbreak"],
+      "responses": ["If you plan to travel to a region with a Monkeypox outbreak, follow public health guidelines, avoid contact with potentially infected individuals or animals, and ensure you practice good hygiene. Check travel advisories from official sources."]
+    },
+    {
+      "tag": "monkeypox fatality rate",
+      "patterns": ["What is the fatality rate of Monkeypox", "Monkeypox mortality rate", "How deadly is Monkeypox", "Monkeypox death rate"],
+      "responses": ["The fatality rate of Monkeypox varies by region and strain, generally ranging from 1% to 10%. Children, pregnant women, and immunocompromised individuals are at higher risk of severe illness or death."]
+    },
+    {
+      "tag": "what is monkeypox",
+      "patterns": ["What is Monkeypox", "Tell me about Monkeypox", "What is Monkeypox virus", "Describe Monkeypox", "What kind of disease is Monkeypox"],
+      "responses": ["Monkeypox is a rare viral disease caused by the monkeypox virus, similar to smallpox but typically less severe. It causes flu-like symptoms and a rash."],
+      "single_word_patterns": ["monkeypox"]
+    },
+    {
+      "tag": "monkeypox symptoms",
+      "patterns": ["What are the symptoms of Monkeypox", "How do I know if I have Monkeypox", "Signs of Monkeypox", "Monkeypox infection symptoms"],
+      "responses": ["Monkeypox symptoms include fever, headache, muscle aches, swollen lymph nodes, chills, exhaustion, and a rash that develops into fluid-filled blisters."],
+      "single_word_patterns": ["symptoms"]
+    },
+    {
+      "tag": "monkeypox transmission",
+      "patterns": ["How is Monkeypox transmitted", "How does Monkeypox spread", "Monkeypox transmission methods", "How do people catch Monkeypox"],
+      "responses": ["Monkeypox spreads through close contact with an infected person or animal, or materials like bedding that have been contaminated. It can also spread through respiratory droplets during prolonged face-to-face contact."],
+      "single_word_patterns": ["transmission"]
+    },
+    {
+      "tag": "what is monkeypox",
+      "patterns": ["What is Monkeypox", "Tell me about Monkeypox", "What is Monkeypox virus", "Describe Monkeypox", "What kind of disease is Monkeypox"],
+      "responses": ["Monkeypox is a rare viral disease caused by the monkeypox virus, similar to smallpox but typically less severe. It causes flu-like symptoms and a rash."],
+      "single_word_patterns": ["monkeypox"]
+    },
+    {
+      "tag": "monkeypox prevention",
+      "patterns": ["How to prevent Monkeypox", "Ways to prevent Monkeypox", "Monkeypox prevention tips", "How to avoid Monkeypox"],
+      "responses": ["To prevent Monkeypox, avoid close contact with infected individuals, practice good hygiene, wear a mask in areas with outbreaks, and avoid contact with animals that might carry the virus."],
+      "single_word_patterns": ["prevention"]
+    },
+    {
+      "tag": "monkeypox treatment",
+      "patterns": ["How is Monkeypox treated", "What is the treatment for Monkeypox", "How to cure Monkeypox", "Monkeypox remedies", "Monkeypox treatment methods"],
+      "responses": ["There is no specific treatment for Monkeypox, but antiviral medications like Tecovirimat can be used for severe cases. Supportive care such as rest, fluids, and pain relief is typically recommended."],
+      "single_word_patterns": ["treatment"]
+    },
+    {
+      "tag": "monkeypox rash",
+      "patterns": ["What does the Monkeypox rash look like", "Describe the Monkeypox rash", "How does the rash from Monkeypox appear", "Monkeypox rash symptoms"],
+      "responses": ["The Monkeypox rash starts as flat red spots that turn into raised bumps, then become fluid-filled blisters. These blisters eventually scab over and fall off after a few weeks."],
+      "single_word_patterns": ["rash"]
+    },
+    {
+      "tag": "monkeypox incubation period",
+      "patterns": ["What is the incubation period for Monkeypox", "How long does it take for Monkeypox symptoms to appear", "Monkeypox incubation time"],
+      "responses": ["The incubation period for Monkeypox is usually 7 to 14 days, but it can range from 5 to 21 days. This is the time between exposure to the virus and the appearance of symptoms."],
+      "single_word_patterns": ["incubation"]
+    },
+    {
+      "tag": "monkeypox complications",
+      "patterns": ["What are the complications of Monkeypox", "Can Monkeypox be serious", "Monkeypox complications", "How dangerous is Monkeypox"],
+      "responses": ["While most cases of Monkeypox are mild, complications can occur, especially in people with weakened immune systems. These include secondary infections, bronchopneumonia, sepsis, and eye infections that can lead to vision loss."],
+      "single_word_patterns": ["complications"]
+    },
+    {
+      "tag": "monkeypox vaccine",
+      "patterns": ["Is there a vaccine for Monkeypox", "Can Monkeypox be prevented with a vaccine", "Monkeypox vaccination", "Monkeypox immunization"],
+      "responses": ["Yes, the smallpox vaccine has been shown to provide protection against Monkeypox. In some countries, vaccines like JYNNEOS are used for people at high risk of Monkeypox exposure."],
+      "single_word_patterns": ["vaccine"]
+    },
+    {
+      "tag": "monkeypox high risk groups",
+      "patterns": ["Who is at risk for Monkeypox", "Who is more likely to get Monkeypox", "Monkeypox high-risk groups", "Who can get Monkeypox"],
+      "responses": ["People living in or traveling to areas where Monkeypox is common, those in close contact with infected individuals or animals, and healthcare workers are at higher risk. Individuals with weakened immune systems are also more vulnerable to severe cases."],
+      "single_word_patterns": ["risk"]
+    },
+    {
+      "tag": "monkeypox testing",
+      "patterns": ["How is Monkeypox diagnosed", "Is there a test for Monkeypox", "Monkeypox testing procedures", "How do doctors test for Monkeypox"],
+      "responses": ["Monkeypox is diagnosed through a clinical examination of the rash, and laboratory testing can confirm the diagnosis. Samples from skin lesions or fluid from blisters are used for PCR testing."],
+      "single_word_patterns": ["testing"]
+    },
+    {
+      "tag": "monkeypox in animals",
+      "patterns": ["Can animals get Monkeypox", "Is Monkeypox found in animals", "How do animals get Monkeypox", "Monkeypox in animals"],
+      "responses": ["Yes, Monkeypox can infect animals such as rodents and primates. It is thought to spread to humans through contact with the bodily fluids of infected animals or bites from infected animals."],
+      "single_word_patterns": ["animals"]
+    },
+    {
+      "tag": "monkeypox versus smallpox",
+      "patterns": ["What is the difference between Monkeypox and Smallpox", "Monkeypox vs Smallpox", "How is Monkeypox different from Smallpox", "Are Monkeypox and Smallpox the same"],
+      "responses": ["Monkeypox and Smallpox are caused by similar viruses, but Monkeypox is usually less severe. Smallpox has been eradicated, while Monkeypox still occurs in parts of Africa. Monkeypox also causes swollen lymph nodes, which is not a symptom of Smallpox."],
+      "single_word_patterns": ["smallpox"]
+    },
+    {
+      "tag": "monkeypox versus chickenpox",
+      "patterns": ["How is Monkeypox different from Chickenpox", "Monkeypox vs Chickenpox", "Is Monkeypox the same as Chickenpox", "Differences between Monkeypox and Chickenpox"],
+      "responses": ["Monkeypox and Chickenpox both cause rashes, but they are caused by different viruses. Monkeypox typically has more severe symptoms like swollen lymph nodes, and its rash develops into fluid-filled blisters that become pustules, whereas Chickenpox lesions are more superficial and heal faster."],
+      "single_word_patterns": ["chickenpox"]
+    },
+    {
+      "tag": "monkeypox outbreaks",
+      "patterns": ["Where have there been Monkeypox outbreaks", "Recent Monkeypox outbreaks", "Monkeypox outbreak locations", "Where does Monkeypox occur"],
+      "responses": ["Monkeypox outbreaks have occurred primarily in Central and West Africa. However, cases have been reported in non-endemic regions due to international travel or contact with infected individuals or animals."],
+      "single_word_patterns": ["outbreaks"]
+    },
+    {
+      "tag": "monkeypox severity",
+      "patterns": ["How severe is Monkeypox", "Is Monkeypox deadly", "Can Monkeypox be fatal", "Monkeypox severity"],
+      "responses": ["Monkeypox is usually mild and self-limiting, but severe cases can occur, especially in immunocompromised individuals. The fatality rate ranges from 1% to 10% depending on the strain and health of the infected individual."],
+      "single_word_patterns": ["severity"]
+    },
+    {
+      "tag": "monkeypox quarantine",
+      "patterns": ["Do I need to quarantine if I have Monkeypox", "Monkeypox quarantine guidelines", "How long to quarantine for Monkeypox", "Isolate for Monkeypox"],
+      "responses": ["Yes, isolation is recommended for individuals infected with Monkeypox to prevent the spread of the virus. The isolation period typically lasts until all scabs from the rash have fallen off and new skin has formed, which can take up to 3 to 4 weeks."],
+      "single_word_patterns": ["quarantine"]
+    },
+    {
+      "tag": "monkeypox resurgence",
+      "patterns": ["Is Monkeypox making a comeback", "Why are there new cases of Monkeypox", "Monkeypox resurgence", "Why is Monkeypox re-emerging"],
+      "responses": ["Monkeypox has resurfaced in various countries due to factors like decreased smallpox vaccination, increased human-animal interactions, and global travel. The virus is now being identified in regions outside of Africa."],
+      "single_word_patterns": ["resurgence"]
+    },
+    {
+      "tag": "monkeypox children",
+      "patterns": ["Can children get Monkeypox", "Monkeypox in kids", "Is Monkeypox dangerous for children", "Are children at risk of Monkeypox"],
+      "responses": ["Yes, children can get Monkeypox. They may be at higher risk of severe disease, especially infants. It's important to monitor children for symptoms if they have been exposed to the virus."],
+      "single_word_patterns": ["children"]
+    },
+
+    {
+      "tag": "monkeypox recovery time",
+      "patterns": ["How long does it take to recover from Monkeypox", "Monkeypox recovery time", "How quickly can someone recover from Monkeypox", "Monkeypox healing time"],
+      "responses": ["Recovery from Monkeypox usually takes 2 to 4 weeks. The rash will go through stages, including scabbing over and falling off. Complete healing occurs once new skin forms under the scabs."],
+      "single_word_patterns": ["recovery"]
+    }
+  ]
+}
