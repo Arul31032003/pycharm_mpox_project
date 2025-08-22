@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask Integration For Monkeypox Detection</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        /* Dark mode with neon accents */
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        header {
+            width: 100%;
+            text-align: center;
+            padding: 20px 0;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            width: 90%;
+            max-width: 1200px;
+        }
+        .card {
+            background: #1e1e1e;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 0 15px rgba(0, 255, 255, 0.2);
+        }
+        button {
+            background: #00bcd4;
+            color: #121212;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            transition: 0.3s ease;
+        }
+        button:hover {
+            background: #00e5ff;
+            box-shadow: 0 0 10px #00e5ff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Monkeypox Detection Using Deep Learning Approaches</h1>
+    </header>
+    <div class="container">
+        <div class="card">
+            <h1>Upload Image</h1>
+            <form id="uploadForm" enctype="multipart/form-data">
+                <input type="file" name="file" required>
+                <button type="submit">Upload</button>
+            </form>
+            <div id="imageResult"></div>
+        </div>
+
+        <div class="card">
+            <h1>ChatBot</h1>
+            <input type="text" id="chatInput" placeholder="Type a message...">
+            <button id="sendChat">Send</button>
+            <div id="chatResult"></div>
+        </div>
+    </div>
+
+    <script>
+      $(document).ready(function() {
+        // Image upload
+        $('#uploadForm').on('submit', function(e) {
+            e.preventDefault();
+            const formData = new FormData(this);
+            $.ajax({
+                type: 'POST',
+                url: '/predict',
+                data: formData,
+                contentType: false,
+                processData: false,
+                success: function(response) {
+                    $('#imageResult').html('<h2>Uploaded Image:</h2><img src="' + response.image_url + '" style="max-width: 100%; height: auto;"/><h2>Prediction: ' + response.prediction + '</h2>');
+                },
+                error: function() {
+                    $('#imageResult').text('Error uploading image.');
+                }
+            });
+        });
+
+        // Chat send
+        $('#sendChat').on('click', function() {
+            const msg = $('#chatInput').val();
+            if (msg.trim() === "") return;
+            $.ajax({
+                type: 'POST',
+                url: '/chat',
+                contentType: 'application/json',
+                data: JSON.stringify({ 'message': msg }),
+                success: function(response) {
+                    $('#chatResult').prepend('<div class="userMessage">' + msg + '</div>');
+                    $('#chatResult').prepend('<div class="botResponse">' + response.response + '</div>');
+                    $('#chatInput').val('');
+                },
+                error: function() {
+                    $('#chatResult').prepend('<div class="botResponse">Error sending message.</div>');
+                }
+            });
+        });
+      });
+    </script>
+</body>
+</html>

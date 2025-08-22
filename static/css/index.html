@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Monkeypox Image Prediction</h1>
+        </header>
+
+        <main>
+            <h2>Upload Image</h2>
+            <form id="uploadForm" enctype="multipart/form-data">
+                <input type="file" name="file" required>
+                <button type="submit">Upload Image</button>
+            </form>
+            <div id="imageResult"></div>
+            
+            <h2>ChatBot</h2> 
+            <div>
+            <button class ="iconbutton" id ="chatIcon"> Click here for bot </button></div>
+            <div id="chatContainer">
+                <input type="text" id="chatInput" placeholder="Type a message...">
+                <button id="sendChat">Send</button>
+                <div id="chatResult"></div>
+            </div>
+           
+        </main>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Your Company Name. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+      $(document).ready(function() {
+        // Image upload AJAX
+        $('#uploadForm').on('submit', function(e) {
+            e.preventDefault();
+            const formData = new FormData(this);
+
+            $.ajax({
+                type: 'POST',
+                url: '/predict',
+                data: formData,
+                contentType: false,
+                processData: false,
+                success: function(response) {
+                    $('#imageResult').html('<h2>Uploaded Image:</h2><img src="' + response.image_url + '" style="max-width: 100%; height: auto;"/><h2>Prediction: ' + response.prediction + '</h2>');
+                },
+                error: function() {
+                    $('#imageResult').text('Error uploading image.');
+                }
+            });
+        });
+
+        // Chat message send AJAX
+        $('#sendChat').on('click', function() {
+            const msg = $('#chatInput').val();
+            if (msg.trim() === "") return;
+
+            $.ajax({
+                type: 'POST',
+                url: '/chat',
+                contentType: 'application/json',
+                data: JSON.stringify({ 'message': msg }),
+                success: function(response) {
+                    $('#chatResult').prepend('<div class="userMessage">' + msg + '</div>'); // User message
+                    $('#chatResult').prepend('<div class="botResponse">' + response.response + '</div>'); // Bot response
+                    $('#chatInput').val('');
+                },
+                error: function() {
+                    $('#chatResult').prepend('<div class="botResponse">Error sending message.</div>');
+                }
+            });
+        });
+
+        // Toggle chat container visibility
+        $('#chatIcon').on('click', function() {
+            $('#chatContainer').toggle();
+        });
+      });
+    </script>
+</body>
+</html>
